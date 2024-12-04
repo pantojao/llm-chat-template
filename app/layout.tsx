@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head></head>
-      <body className={cn(GeistSans.className, "antialiased dark")}>
+      <body className={cn(GeistSans.className)}>
         <Toaster position="top-center" richColors />
         <Navbar />
         {children}
